@@ -1,4 +1,4 @@
-/*
+
 * A solution to prop drilling:
 @ - Task: Passing state into multiple deeply nested child components
 ++ Solution 1:
@@ -178,5 +178,3 @@ function Main(){
   const {city,setCity} = useCities();
   ! Now we can use the state without prop drilling
 }
-
-*/
